@@ -26,15 +26,15 @@
         </button>
         <b>Оставьте свои данные, мы вам перезвоним</b>
         <form>
-          <label for="">Имя</label>
+          <label for="username">Имя</label>
           <div class="input-thumb">
-            <input type="text" name="username" id="username" />
+            <input type="text" name="username" id="username" autofocus />
             <span class="modal-icon-container"
               ><svg class="modal-icon" height="18" width="18">
                 <use href="./images/icons.svg#icon-person"></use></svg
             ></span>
           </div>
-          <label for="">Телефон</label>
+          <label for="tel">Телефон</label>
           <div class="input-thumb">
             <input type="tel" name="tel" id="tel" />
             <span class="modal-icon-container"
@@ -42,7 +42,7 @@
                 <use href="./images/icons.svg#icon-phone-black"></use></svg
             ></span>
           </div>
-          <label for="">Почта</label>
+          <label for="email">Почта</label>
           <div class="input-thumb">
             <input type="email" name="email" id="email" />
             <span class="modal-icon-container"
@@ -58,8 +58,8 @@
             placeholder="Введите текст"
           ></textarea>
           <label class="checkbox-label"
-            ><span><a class="license-link" href="">Условия договора</a></span>
-            Соглашаюсь с рассылкой и принимаю
+            ><span><a class="license-link" href=""> Условия договора</a></span>
+            Соглашаюсь с рассылкой и принимаю&nbsp;
             <input
               class="checkbox"
               type="checkbox"
@@ -437,8 +437,8 @@
         </div>
         <div class="signup">
           <p>Подпишитесь на рассылку</p>
-          <form class="signup-form" action="">
-            <label for="signup-formfield">
+          <form class="signup-form">
+            <label>
               <input
                 type="email"
                 name="signup-formfield"
